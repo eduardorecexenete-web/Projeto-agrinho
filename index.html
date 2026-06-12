@@ -1,1 +1,95 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Colmeia Viva: conheça a importância das abelhas para o meio ambiente e o potencial da apicultura como fonte de renda para pequenas comunidades.">
+  <meta name="theme-color" content="#173d2b">
+  <title>Colmeia Viva | Natureza que gera futuro</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-bee" viewBox="0 0 64 64">
+      <path d="M24 26c-7-10-18-8-18 1 0 7 8 10 18 8M40 26c7-10 18-8 18 1 0 7-8 10-18 8"></path>
+      <ellipse cx="32" cy="35" rx="12" ry="17"></ellipse>
+      <path d="M22 31h20M21 39h22M27 18c0-5-4-7-7-8M37 18c0-5 4-7 7-8M32 52v7"></path>
+    </symbol>
+    <symbol id="icon-flower" viewBox="0 0 48 48">
+      <circle cx="24" cy="21" r="5"></circle>
+      <circle cx="24" cy="11" r="7"></circle>
+      <circle cx="34" cy="18" r="7"></circle>
+      <circle cx="30" cy="29" r="7"></circle>
+      <circle cx="18" cy="29" r="7"></circle>
+      <circle cx="14" cy="18" r="7"></circle>
+      <path d="M24 34v11M24 39c5-5 9-4 11-2-2 5-6 7-11 5"></path>
+    </symbol>
+    <symbol id="icon-leaf" viewBox="0 0 48 48">
+      <path d="M41 7C21 7 8 16 8 30c0 7 5 11 12 11 15 0 21-15 21-34Z"></path>
+      <path d="M6 44c6-12 15-21 29-29"></path>
+    </symbol>
+    <symbol id="icon-hive" viewBox="0 0 48 48">
+      <path d="M11 20h26l5 6-5 6H11l-5-6 5-6ZM15 8h18l5 6-5 6H15l-5-6 5-6ZM15 32h18l4 5-4 5H15l-4-5 4-5Z"></path>
+      <circle cx="24" cy="26" r="3"></circle>
+    </symbol>
+    <symbol id="icon-people" viewBox="0 0 48 48">
+      <circle cx="24" cy="14" r="7"></circle>
+      <circle cx="9" cy="19" r="5"></circle>
+      <circle cx="39" cy="19" r="5"></circle>
+      <path d="M12 42v-7c0-8 5-13 12-13s12 5 12 13v7M2 39v-5c0-6 3-10 8-10 3 0 5 1 7 3M46 39v-5c0-6-3-10-8-10-3 0-5 1-7 3"></path>
+    </symbol>
+    <symbol id="icon-jar" viewBox="0 0 48 48">
+      <path d="M15 5h18v8H15zM13 13h22l3 6v22H10V19l3-6Z"></path>
+      <path d="M10 24h28M18 31c3-4 9-4 12 0-3 5-9 5-12 0Z"></path>
+    </symbol>
+    <symbol id="icon-coins" viewBox="0 0 48 48">
+      <ellipse cx="24" cy="12" rx="15" ry="7"></ellipse>
+      <path d="M9 12v9c0 4 7 7 15 7s15-3 15-7v-9M9 21v9c0 4 7 7 15 7s15-3 15-7v-9M9 30v6c0 4 7 7 15 7s15-3 15-7v-6"></path>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path d="m5 12 4 4L19 6"></path>
+    </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14M14 7l5 5-5 5"></path>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24">
+      <path d="M12 5v14M5 12h14"></path>
+    </symbol>
+  </svg>
+  <header class="site-header" id="topo">
+    <div class="container nav-shell">
+      <a class="brand" href="#inicio" aria-label="Colmeia Viva, voltar ao início">
+        <span class="brand-mark"><svg><use href="#icon-bee"></use></svg></span>
+        <span class="brand-name">COLMEIA <strong>VIVA</strong></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#impacto">Por que importa</a>
+        <a href="#renda">Renda</a>
+        <a href="#produtos">Oportunidades</a>
+        <a href="#caminho">Como começar</a>
+        <a href="#referencias">Referências</a>
+      </nav>
+      <a class="nav-cta" href="#simulador">Simular projeto</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span></span> Apicultura que regenera</p>
+          <h1>Quando as abelhas prosperam, <em>comunidades inteiras florescem.</em></h1>
+          <p class="hero-text">Criar abelhas com responsabilidade ajuda a preservar a biodiversidade, fortalece a produção de alimentos e abre caminhos de renda sustentável no campo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#impacto">
+              Descobrir o impacto
+              <svg><use href="#icon-arrow"></use></svg>
+            </a>
+            <a class="button-link" href="#renda">Conhecer oportunidades</a>
+          </div>
